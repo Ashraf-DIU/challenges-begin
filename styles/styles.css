@@ -1,0 +1,150 @@
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+.header{
+    margin-top: 10px;
+    text-align: center;
+    padding: 26px 220px 40px 230px;
+    background-image: url(../assets/Hero-bg.png);
+}
+.header-headding{
+    font-weight: 800px;
+    color: #0D1321;
+    font-size: 48px;
+}
+.descrip{
+    color: #0D1321;
+    font-size: 16px;
+}
+.header-btn{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    padding: 21px 24px;
+    font-weight: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 196px;
+}
+
+.why{
+    padding: 80px 160px;
+}
+.why-intro{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.why-head{
+    font-size: 32px;
+    font-weight: 800px;
+}
+.why-will{
+    display: flex; 
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 100px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);;
+}
+.why-btn{
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center; 
+    cursor: pointer;  
+}
+
+.inspira{
+    padding: 50px 170px;
+    text-align: center;
+}
+.inspira-head{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.inspira-intro{
+    font-weight: 800px;
+    font-size: 30px;
+}
+
+.ctarget{
+    padding: 50px 170px;
+    /* text-align: center; */
+}
+.ctarget-head{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.ctarget-intro{
+    font-size: 32px;
+     font-weight: 800;
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skillht{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin: 0px 24px;
+    padding: 30px;
+} 
+.skillcs{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0px 24px;
+    padding: 30px;
+}
+.skilljs{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin: 0px 24px;
+    padding: 30px;
+}
+.skill-btn{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+    border: none;
+    flex: none;
+    cursor: pointer;
+}
+
+.ntarget{
+    padding: 150px;
+}
+.ntarget-head{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.ntarget-intro{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.laguage{
+    display: flex;
+    gap: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px 0px;
+}
+
+.laguages{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+}
